@@ -1,0 +1,11 @@
+node_modules*
+.vscode
+.idea
+dist
+*.vim
+*.log
+.awcache
+.DS_Store
+.vscode
+tmp
+.env
