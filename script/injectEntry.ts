@@ -9,7 +9,7 @@ export const injectEntry = (html: string) => {
 
   const head = $('head')
 
-  packages.reverse().forEach((pkg) => {
+  ;[...packages].reverse().forEach((pkg) => {
     const tag = (pkg.path || pkg.fullPath || '').endsWith('.js')
       ? 'script'
       : 'link'
